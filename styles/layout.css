@@ -85,7 +85,35 @@ body {
   border: 0;
   display: block;
 }
+#main {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 10px;
+  -moz-box-shadow: 0 0 9px #c3c3c3;
+  -webkit-box-shadow: 0 0 9px #c3c3c3;
+  box-shadow: 0 0 9px #c3c3c3;
+  background-color: #fbfafa;
+  margin: 10px;
+}
 #promo {
+  float: left;
+  width: 700px;
+}
+#aside {
+  float: left;
+  width: 200px;
+}
+#aside .news-item {
+  background: url(../images/body-newsitem-background.png) no-repeat scroll left top;
+  padding: 8px 8px 14px;
+  height: 38px;
+  width: 179px;
+}
+#aside .news-item a {
+  display: inline-block;
+  height: 38px;
+  width: 179px;
+}
 #footer .certifications .symbol1 {
   height: 36px;
   width: 24px;
@@ -135,6 +163,14 @@ a {
   opacity: 0;
 }
 
+#aside .news-item {
+  line-height: 90%;
+  font-size: 12px;
+}
+#aside .news-item a {
+  text-overflow: ellipsis;  
+  overflow: hidden;
+}
 
 #footer {
   font-size: 9px;
