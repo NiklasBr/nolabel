@@ -28,21 +28,23 @@ body {
 
 #logo img {
   height: 113px;
+  position: relative;
   width: 212px;
+  z-index: 100;
 }
 #nav {
   float: right;
-  margin-top: 32px;
+  margin-top: 25px;
 }
 #nav li {
   float: left;
-  margin: 0;
+  margin: 0 5px;
 }
 #nav li.active {
   background: url(../images/header-nav-hover.png) no-repeat scroll center bottom;
 }
 #nav li a {
-  padding: 0 10pt;
+  padding: 0 10px;
 }
 
 #lang {
@@ -72,8 +74,7 @@ body {
 
 #slider {
   height: 220px;
-  margin: -55px 0 0 0;
-  background: url('../images/body-red-line.png') repeat-x scroll left bottom; /*TODO:Flytta in denna röda linje i body-background eftersom den ska sträcka sig ut över hela dokumentet */
+  margin: -55px 0 0;
 }
 #slider img {
   position: absolute;
@@ -103,9 +104,10 @@ a {
 }
 
 #nav li a {
-  line-height: 31px;
+  line-height: 38px;
   color: #c8a675;
   font-weight: bold;
+  font-size: 12px;
 }
 #lang li a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
@@ -132,18 +134,18 @@ a {
 
 /* #Font-Face
 ================================================== */
-/* 	This is the proper syntax for an @font-face file
-		Just create a "fonts" folder at the root,
-		copy your FontName into code below and remove
-		comment brackets */
+/*   This is the proper syntax for an @font-face file
+    Just create a "fonts" folder at the root,
+    copy your FontName into code below and remove
+    comment brackets */
 
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
+/*  @font-face {
+      font-family: 'FontName';
+      src: url('../fonts/FontName.eot');
+      src: url('../fonts/FontName.eot?iefix') format('eot'),
+           url('../fonts/FontName.woff') format('woff'),
+           url('../fonts/FontName.ttf') format('truetype'),
+           url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+      font-weight: normal;
+      font-style: normal; }
 */
