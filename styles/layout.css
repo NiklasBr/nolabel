@@ -91,14 +91,30 @@ body {
 /* #General Text Styles
 ================================================== */
 
-h1, h2, h3, h4, h5, h6 {
-  color: #054376;
+h1, h2, h3, h4, h5, h6, .ingress {
+  color: #004477;
   /*blir Helvetica på iOS/OSX samt Arial på Windows för bästa läsbarhet*/
   font-family: sans-serif;
   font-weight: bold;
 }
-
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 23px;
+}
+p, .news-item {
+	font: 16px Garamond, "Times New Roman", Times, serif;
+}
+.ingress {
+  color: #004477;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1em;
+}
 a {
+  color: #004477;
   text-decoration: none;
 }
 
