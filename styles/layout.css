@@ -49,6 +49,8 @@ body {
 #lang {
   clear: right;
   float: right;
+  position: relative;
+  z-index: 100;
 }
 #lang li {
   float: left;
