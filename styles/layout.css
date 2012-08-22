@@ -11,14 +11,80 @@
 ==================================================
 	#Site Styles
 	#Page Styles
+	#General Text Styles
 	#Media Queries
 	#Font-Face */
 
 /* #Site Styles
 ================================================== */
 
+body {
+  background: url(../images/body-background.png) repeat-x scroll left top;
+}
+
+#header {
+  background: url(../images/header-background.png) repeat-x scroll left top;
+}
+
+#logo img {
+  height: 113px;
+  width: 212px;
+}
+#nav {
+  float: right;
+  margin-top: 32px;
+}
+#nav li {
+  float: left;
+  margin: 0;
+}
+#nav li.active {
+  background: url(../images/header-nav-hover.png) no-repeat scroll center bottom;
+}
+#nav li a {
+  padding: 0 10pt;
+}
+
+#lang {
+  clear: right;
+  float: right;
+}
+#lang li {
+  float: left;
+  height: 12px;
+  margin: 0 5px 0 0;
+  overflow: hidden;
+  width: 20px;
+  background: url(../images/header-lang-flags.png) no-repeat scroll 0 0;
+}
+#lang .en_uk {
+  background-position: 0 -20px;
+}
+#lang .de_de {
+  background-position: 0 -40px;
+}
+#lang .fr_fr {
+  background-position: 0 -60px;
+}
 /* #Page Styles
 ================================================== */
+
+/* #General Text Styles
+================================================== */
+
+a {
+  text-decoration: none;
+}
+
+#nav li a {
+  line-height: 31px;
+  color: #c8a675;
+  font-weight: bold;
+}
+#lang li a {
+  /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
+  opacity: 0;
+}
 
 /* #Media Queries
 ================================================== */
