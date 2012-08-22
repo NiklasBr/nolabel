@@ -75,7 +75,16 @@ body {
   margin: -55px 0 0 0;
   background: url('../images/body-red-line.png') repeat-x scroll left bottom; /*TODO:Flytta in denna röda linje i body-background eftersom den ska sträcka sig ut över hela dokumentet */
 }
-
+#slider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+#slider a {
+  border: 0;
+  display: block;
+}
 #promo {
 }
 
