@@ -66,11 +66,28 @@ body {
 #lang .fr_fr {
   background-position: 0 -60px;
 }
+
 /* #Page Styles
 ================================================== */
 
+#slider {
+  height: 220px;
+  margin: -55px 0 0 0;
+  background: url('../images/body-red-line.png') repeat-x scroll left bottom; /*TODO:Flytta in denna röda linje i body-background eftersom den ska sträcka sig ut över hela dokumentet */
+}
+
+#promo {
+}
+
 /* #General Text Styles
 ================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #054376;
+  /*blir Helvetica på iOS/OSX samt Arial på Windows för bästa läsbarhet*/
+  font-family: sans-serif;
+  font-weight: bold;
+}
 
 a {
   text-decoration: none;
