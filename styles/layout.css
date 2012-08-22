@@ -104,7 +104,7 @@ body {
   -o-box-shadow: 0 0 9px #c3c3c3;
   box-shadow: 0 0 9px #c3c3c3;
   background-color: #fbfafa;
-  margin: 10px;
+  margin: 10px 10px 5px 10px;
 }
 #promo {
   float: left;
@@ -157,13 +157,17 @@ h1, h2, h3, h4, h5, h6, .ingress {
   font-weight: bold;
 }
 h1 {
-	font-size: 30px;
+  font-size: 30px;
 }
 h2 {
-	font-size: 23px;
+  font-size: 23px;
+}
+#main h1, #main h2 {
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 p, .news-item {
-	font: 16px Garamond, "Times New Roman", Times, serif;
+  font: 16px Garamond, "Times New Roman", Times, serif;
 }
 .ingress {
   color: #004477;
