@@ -86,8 +86,14 @@ body {
   display: block;
 }
 #promo {
+#footer .certifications .symbol1 {
+  height: 36px;
+  width: 24px;
 }
-
+#footer .certifications .symbol2 {
+  height: 36px;
+  width: 40px;
+}
 /* #General Text Styles
 ================================================== */
 
@@ -127,6 +133,14 @@ a {
 #lang li a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
   opacity: 0;
+}
+
+
+#footer {
+  font-size: 9px;
+}
+#footer .certifications {
+  text-align: right;
 }
 
 /* #Media Queries
