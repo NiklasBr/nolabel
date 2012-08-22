@@ -21,7 +21,9 @@
 body {
   background: url(../images/body-background.png) repeat-x scroll left top;
 }
-
+#wrap {
+  background: url(../images/footer-background.png) repeat-x scroll left bottom;
+}
 #header {
 }
 
@@ -68,6 +70,12 @@ body {
 }
 #lang .fr_fr {
   background-position: 0 -60px;
+}
+#footer {
+  background: url(../images/footer-fade-background.png) no-repeat scroll left 0;
+  height: 101px;
+  margin: 10px 0 0 0;
+  padding: 0 15px;
 }
 
 /* #Page Styles
@@ -128,6 +136,9 @@ body {
   height: 38px;
   width: 179px;
 }
+#footer .certifications {
+	margin-top: 5px;
+}
 #footer .certifications .symbol1 {
   height: 36px;
   width: 24px;
@@ -187,6 +198,7 @@ a {
 
 #footer {
   font-size: 9px;
+  color: #fff;
 }
 #footer .certifications {
   text-align: right;
