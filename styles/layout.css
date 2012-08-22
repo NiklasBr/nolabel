@@ -43,7 +43,7 @@ body {
   float: left;
   margin: 0 5px;
 }
-#nav li.active {
+#nav li.active, #nav li:hover {
   background: url(../images/header-nav-hover.png) no-repeat scroll center bottom;
 }
 #nav li a {
@@ -144,7 +144,7 @@ body {
 }
 #footer .certifications {
 	float: right;
-	margin: 5px 10px 0 0;
+	margin: 5px 25px 0 0;
 }
 #footer .certifications .symbol1 {
   height: 36px;
