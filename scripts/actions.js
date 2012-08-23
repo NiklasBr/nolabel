@@ -11,3 +11,11 @@ $(window).load(function() {
         directionNav: false // Next & Prev navigation
     });
 });
+
+
+// Bättra på språknavigationen genom att kopiera in länkens text till title-attribut i det synliga li-elementet
+$(document).ready(function() {
+    $("#lang li a").each(function() {
+        $(this).parent('li').attr('title', $(this).text());
+    });
+});
