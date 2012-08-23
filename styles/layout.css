@@ -339,6 +339,14 @@ a:visited {
       height: 345px;
       margin: -83px 0 25px 0;
     }
+    #main {
+      padding: 20px;
+      margin-top: 40px;
+    }
+    #promo {
+      padding: 0 30px 0 0;
+      width: 1100px;
+    }
     #aside {
       width: 300px;
     }
@@ -456,6 +464,25 @@ a:visited {
   	  h2 {
   	    font-size: 18px;
   	   }
+  	  .contact #promo {
+  	  	padding:  0 12px;
+  	  }
+  	  #promo, #aside {
+  	    float: left;
+  	    width: inherit;
+  	    padding: 0 15px;
+  	  }
+  	  #promo .post {
+  	    -moz-column-count: 1;
+  	    -webkit-column-count: 1;
+  	    -o-column-count: 1;
+  	    column-count: 1;
+  	  }
+  	  #promo .person {
+  	    height: 157px;
+  	    margin: 0 8px 15px 0;
+  	    width: 133px;
+  	  }
   	  #aside {
   	  	width: 270px;
   	  }
