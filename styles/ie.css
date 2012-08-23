@@ -1,3 +1,382 @@
+/* "Media Queries" via JS-hack */
+
+/*
+    Bredd 1600
+*/
+
+.ie-1600 .container                                  { width: 1600px; }
+
+/* Base Grid */
+.ie-1600 .container .one.column,
+.ie-1600 .container .one.columns                     { width: 100px;  }
+.ie-1600 .container .two.columns                     { width: 200px; }
+.ie-1600 .container .three.columns                   { width: 300px; }
+.ie-1600 .container .four.columns                    { width: 400px; }
+.ie-1600 .container .five.columns                    { width: 500px; }
+.ie-1600 .container .six.columns                     { width: 600px; }
+.ie-1600 .container .seven.columns                   { width: 700px; }
+.ie-1600 .container .eight.columns                   { width: 800px; }
+.ie-1600 .container .nine.columns                    { width: 900px; }
+.ie-1600 .container .ten.columns                     { width: 1000px; }
+.ie-1600 .container .eleven.columns                  { width: 1100px; }
+.ie-1600 .container .twelve.columns                  { width: 1200px; }
+.ie-1600 .container .thirteen.columns                { width: 1300px; }
+.ie-1600 .container .fourteen.columns                { width: 1400px; }
+.ie-1600 .container .fifteen.columns                 { width: 1500px; }
+.ie-1600 .container .sixteen.columns                 { width: 1600px; }
+
+.ie-1600 .container .one-third.column                { width: 300px; }
+.ie-1600 .container .two-thirds.column               { width: 620px; }
+
+/* Offsets */
+.ie-1600 .container .offset-by-one                   { padding-left: 100px;  }
+.ie-1600 .container .offset-by-two                   { padding-left: 200px; }
+.ie-1600 .container .offset-by-three                 { padding-left: 300px; }
+.ie-1600 .container .offset-by-four                  { padding-left: 400px; }
+.ie-1600 .container .offset-by-five                  { padding-left: 500px; }
+.ie-1600 .container .offset-by-six                   { padding-left: 600px; }
+.ie-1600 .container .offset-by-seven                 { padding-left: 700px; }
+.ie-1600 .container .offset-by-eight                 { padding-left: 800px; }
+.ie-1600 .container .offset-by-nine                  { padding-left: 900px; }
+.ie-1600 .container .offset-by-ten                   { padding-left: 1000px; }
+.ie-1600 .container .offset-by-eleven                { padding-left: 1100px; }
+.ie-1600 .container .offset-by-twelve                { padding-left: 1200px; }
+.ie-1600 .container .offset-by-thirteen              { padding-left: 1300px; }
+.ie-1600 .container .offset-by-fourteen              { padding-left: 1400px; }
+.ie-1600 .container .offset-by-fifteen               { padding-left: 1500px; }
+
+
+body.ie-1600 {
+  background-image: url(../images/body-background-1600.png);
+}
+body.contact.ie-1600 {
+  background-image: url(../images/body-sub-background-1600.png);
+} 
+.ie-1600 #wrap {
+  background-image: url(../images/footer-background-1600.png);
+}
+.ie-1600 #content {
+  padding: 0 30px;
+  background-image: url(../images/body-shades-top-1600.png);
+}
+.ie-1600 #logo img {
+  height: 176px;
+  width: 330px;
+}
+.ie-1600 #nav {
+  float: right;
+  margin-top: 50px;
+  margin-right: -10px;
+}
+.ie-1600 #nav li {
+  margin: 0 20px;
+}
+.ie-1600 #nav li a {
+  font-size: 18px;
+  line-height: 48px;
+}
+.ie-1600 #lang li {
+  background-image: url(../images/header-lang-flags-1600.png);
+}
+.ie-1600 #lang .en_uk {
+  background-position: 0 -20px;
+}
+.ie-1600 #lang .de_de {
+  background-position: 0 -40px;
+}
+.ie-1600 #lang .fr_fr {
+  background-position: 0 -60px;
+}
+.ie-1600 #slider {
+  height: 345px;
+  margin: -83px 0 25px 0;
+}
+.ie-1600 #main {
+  padding: 20px;
+  margin-top: 40px;
+}
+.ie-1600 #promo {
+  padding: 0 30px 0 0;
+  width: 1100px;
+}
+.ie-1600 #aside {
+  width: 300px;
+}
+.ie-1600 #promo .person {
+  height: 243px;
+  margin: 0 45px 20px 0;
+  width: 206px;
+}
+.ie-1600 #promo .person.omega {
+  margin: 0;
+}
+.ie-1600 #promo .person img {
+  height: 243px;
+  width: 206px;
+}
+.ie-1600 #promo .person .details {
+  height: 70px;
+  padding: 0 0 0 10px;
+  top: 160px;
+  width: 206px;
+  font-size: 18px;
+}
+
+.ie-1600 #aside .news-item {
+  background-image: url(../images/body-newsitem-background-1600.png);
+  height: 61px;
+  width: 282px;
+  padding: 12px 12px 12px 10px;
+}
+.ie-1600 #aside .news-item a {
+  height: 54px;
+  line-height: 18px;
+  width: 280px;
+}
+.ie-1600 .sub-page #aside {
+  /*detta är lite av en gissning pga PSD-filen*/
+  border-left: 1px solid silver;
+  padding: 80px 0 0 55px;
+  width: 280px;
+  min-height: 320px;
+}
+.ie-1600 .sub-page #aside .gallery-item {
+  width: 123px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.ie-1600 .sub-page #aside .gallery-item img {
+  height: 99px;
+  width: 123px;
+}
+.ie-1600 .description {
+  font-size: 16px;
+}
+.ie-1600 #footer {
+  font-size: 12px;
+  height: 161px;
+  background: url(../images/footer-fade-background-1600.png) no-repeat scroll 0 -325px;
+}
+.ie-1600 #footer > * {
+  margin-top: 10px;
+}
+.ie-1600 h1 {
+  font-size: 48px;
+}
+.ie-1600 h2 {
+  font-size: 30px;
+}
+.ie-1600 #main h1, .ie-1600 #main h2 {
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.ie-1600 p {
+  font-size: 24px;
+}
+.ie-1600 .ingress {
+  font-size: 30px;
+}
+.ie-1600 #aside .news-item {
+  font-size: 18px;
+}
+
+
+
+/*
+    Bredd 320
+*/
+.ie-320 .container { width: 320px; }
+.ie-320 .container .columns,
+.ie-320 .container .column { margin: 0; }
+
+.ie-320 .container .one.column,
+.ie-320 .container .one.columns,
+.ie-320 .container .two.columns,
+.ie-320 .container .three.columns,
+.ie-320 .container .four.columns,
+.ie-320 .container .five.columns,
+.ie-320 .container .six.columns,
+.ie-320 .container .seven.columns,
+.ie-320 .container .eight.columns,
+.ie-320 .container .nine.columns,
+.ie-320 .container .ten.columns,
+.ie-320 .container .eleven.columns,
+.ie-320 .container .twelve.columns,
+.ie-320 .container .thirteen.columns,
+.ie-320 .container .fourteen.columns,
+.ie-320 .container .fifteen.columns,
+.ie-320 .container .sixteen.columns,
+.ie-320 .container .one-third.column,
+.ie-320 .container .two-thirds.column  { width: 320px; }
+
+/* Offsets */
+.ie-320 .container .offset-by-one,
+.ie-320 .container .offset-by-two,
+.ie-320 .container .offset-by-three,
+.ie-320 .container .offset-by-four,
+.ie-320 .container .offset-by-five,
+.ie-320 .container .offset-by-six,
+.ie-320 .container .offset-by-seven,
+.ie-320 .container .offset-by-eight,
+.ie-320 .container .offset-by-nine,
+.ie-320 .container .offset-by-ten,
+.ie-320 .container .offset-by-eleven,
+.ie-320 .container .offset-by-twelve,
+.ie-320 .container .offset-by-thirteen,
+.ie-320 .container .offset-by-fourteen,
+.ie-320 .container .offset-by-fifteen { padding-left: 0; }
+
+
+
+  body.ie-320, body.contact.ie-320 {
+    background-image: url(../images/body-background-320.png);
+  }
+  .ie-320 #wrap {
+    background-image: url(../images/footer-background-320.png);
+  }
+  .ie-320 #logo img {
+    left: 95px;
+    height: 58px;
+    width: 108px;
+  }
+  .ie-320 #nav {
+    display: block;
+    float: none;
+    position: relative;
+    width: 310px;
+    z-index: 250;
+    margin: 0;
+  }
+  .ie-320 #nav li.active, .ie-320 #nav li:hover {
+    background: none;
+  }
+  .ie-320 #nav li {
+    margin: 0 3px;
+  }
+  .ie-320 #nav li a {
+    line-height: 22px;
+    padding: 0 5px 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+  }
+  .ie-320 #lang {
+    margin: 10px 0;
+  }
+  .ie-320 #content, .ie-320 #header {
+    padding: 0 10px;
+  }
+  .ie-320 #slider {
+    height: 66px;
+    margin: 0 0 15px 0;
+  }
+  .ie-320 #main {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;        
+    padding: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    margin: 0;
+  }
+  .ie-320 p {
+    font-size: 14px;
+  }
+  .ie-320 .ingress {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .ie-320 h1 {
+    font-size: 24px;
+  }
+  .ie-320 h2 {
+    font-size: 18px;
+   }
+  .ie-320 .contact #promo {
+    padding:  0 12px;
+  }
+  .ie-320 #promo, .ie-320 #aside {
+    float: left;
+    width: inherit;
+    padding: 0 15px;
+  }
+  .ie-320 #promo .post {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    -o-column-count: 1;
+    column-count: 1;
+  }
+  .ie-320 #promo .person {
+    height: 157px;
+    margin: 0 8px 15px 0;
+    width: 133px;
+  }
+  .ie-320 #promo .person.even {
+    margin: 0;
+  }
+  .ie-320 #promo .person img {
+    height: 157px;
+    width: 133px;
+  }
+  .ie-320 #promo .person .details {
+    height: 45px;
+  }
+  .ie-320 #aside {
+    width: 270px;
+  }
+  .ie-320 .sub-page #aside {
+    border: none;
+    width: 285px;
+    padding: 0 0px 0 15px;
+    min-height: 120px;
+  }
+  .ie-320 .sub-page #aside .gallery-item {
+    margin: 0 16px 3px 0;
+    width: 126px;
+  }
+  .ie-320 .sub-page #aside .gallery-item img {
+    height: 101px;
+    width: 126px;
+  }
+  .ie-320 .description {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    }
+  .ie-320 #aside .news-item {
+    background-image: url(../images/body-newsitem-background-320.png);
+    height: 65px;
+    width: 257px;
+    margin: 5px 0 5px -10px;
+    padding: 5px 20px 4px 20px;
+    line-height: 130%;
+  }
+  .ie-320 #aside .news-item a {
+    width: inherit;
+    height: 60px;
+  }
+  .ie-320 #footer {
+    background: none;
+    font-size: 12px;
+  }
+  .ie-320 #footer .address {
+   width: inherit;
+  }
+  .ie-320 #footer .address.alpha {
+    margin-left: 0;
+  }
+  .ie-320 #footer .certifications {
+    width: 280px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+/*
+    Övriga fixar
+*/
 #nav, #lang {
   position: relative;
   z-index: 500;
