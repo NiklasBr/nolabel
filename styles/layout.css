@@ -27,6 +27,7 @@ body.contact {
   background: url(../images/footer-background.png) repeat-x scroll left bottom;
 }
 #header {
+  display: initial;
   padding: 0 30px;
 }
 #logo {
@@ -265,7 +266,10 @@ a:visited {
 }
 #lang li a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
+  display: block;
+  height: 12px;
   opacity: 0;
+  width: 20px;
 }
 #promo .person .details > * {
   display: block;
@@ -312,6 +316,9 @@ a:visited {
     #content {
       padding: 0 30px;
       background-image: url(../images/body-shades-top-1600.png);
+    }
+    #header {
+      display: initial;	
     }
     #logo img {
       height: 176px;
@@ -445,6 +452,9 @@ a:visited {
 	  #wrap {
         background-image: url(../images/footer-background-320.png);
   	  }
+	  #header {
+	    display: initial;	
+	  }
       #logo img {
         left: 95px;
         height: 58px;
