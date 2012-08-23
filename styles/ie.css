@@ -76,16 +76,21 @@ body.contact.ie-1600 {
   line-height: 48px;
 }
 .ie-1600 #lang li {
+  height: 16px;
+  margin: 0 8px;
   background-image: url(../images/header-lang-flags-1600.png);
 }
+.ie-1600 #lang {
+  margin: 15px 10px 0 0;
+}
 .ie-1600 #lang .en_uk {
-  background-position: 0 -20px;
+  background-position: 0 -30px;
 }
 .ie-1600 #lang .de_de {
-  background-position: 0 -40px;
+  background-position: 0 -60px;
 }
 .ie-1600 #lang .fr_fr {
-  background-position: 0 -60px;
+  background-position: 0 -90px;
 }
 .ie-1600 #slider {
   height: 345px;
