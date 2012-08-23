@@ -145,9 +145,12 @@ body.contact {
   height: 38px;
   width: 179px;
 }
+#footer .address.alpha {
+  margin-left: 25px;
+}
 #footer .certifications {
-	float: right;
-	margin: 5px 25px 0 0;
+  float: right;
+  margin: 5px 25px 0 0;
 }
 #footer .certifications .symbol1 {
   height: 36px;
@@ -190,7 +193,9 @@ a {
   color: #004477;
   text-decoration: none;
 }
-
+a:visited {
+  color: #c0c0c0;
+}
 #nav li a {
   line-height: 38px;
   color: #c8a675;
@@ -201,6 +206,17 @@ a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
   opacity: 0;
 }
+#promo .person .details > * {
+  display: block;
+  clear: both;
+}
+#promo .person .details {
+  font-size: 12px;
+  line-height: 125%;
+}
+#promo .person .name {
+  color: #004477;
+}
 #aside .news-item {
   line-height: 90%;
   font-size: 12px;
@@ -209,8 +225,7 @@ a {
   text-overflow: ellipsis;  
   overflow: hidden;
 }
-
-#footer {
+#footer, #footer a {
   font-size: 9px;
   color: #fff;
 }
