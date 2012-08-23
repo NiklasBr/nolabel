@@ -307,6 +307,22 @@ a:visited {
       padding: 0 30px;
       background-image: url(../images/body-shades-top-1600.png);
     }
+    #logo img {
+      height: 176px;
+      width: 330px;
+    }
+    #nav {
+      float: right;
+      margin-top: 50px;
+      margin-right: -10px;
+    }
+    #nav li {
+      margin: 0 20px;
+    }
+    #nav li a {
+      font-size: 18px;
+      line-height: 48px;
+    }
     #lang li {
       background-image: url(../images/header-lang-flags-1600.png);
     }
@@ -318,6 +334,10 @@ a:visited {
     }
     #lang .fr_fr {
       background-position: 0 -60px;
+    }
+    #slider {
+      height: 345px;
+      margin: -83px 0 25px 0;
     }
     #promo .person .details {
       font-size: 18px;
@@ -369,9 +389,42 @@ a:visited {
 	  #wrap {
         background-image: url(../images/footer-background-320.png);
   	  }
+      #logo img {
+        left: 95px;
+        height: 58px;
+      	width: 108px;
+      }
+      #nav {
+      	display: block;
+        float: none;
+      	position: relative;
+      	width: 310px;
+      	z-index: 250;
+		margin: 0;
+	  }
 	  #nav li.active, #nav li:hover {
         background: none;
 	  }
+	  #nav li {
+	  	margin: 0 3px;
+	  }
+	  #nav li a {
+        line-height: 22px;
+	  	padding: 0 5px 10px;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 14px;
+	  }
+	  #lang {
+	  	margin: 10px 0;
+	  }
+  	  #content, #header {
+  	  	padding: 0 10px;
+  	  }
+  	  #slider {
+  	  	height: 66px;
+  	  	margin: 0 0 15px 0;
+  	  }
   	  #main {
         border-radius: 0;
         padding: 0;
