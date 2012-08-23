@@ -14,11 +14,11 @@ nolabel
  * 3-4 timmar för att göra mallen för 1024px (inklusive att skapa detta dokument och repository).
  * Därefter cirka 1-2h för den mobila 320px-varianten, där den kommer testas både i iOS och Android 4.1
  * Cirka 1 timme för mallen på 1600px
- * Cirka 1 timme för bakåtkompabilitet med FF3.6.x
+ * Cirka 1 timme för bakåtkompabilitet med IE8
 
 ## Kompabilitet
 
-För äldre browsers som FireFox 3.6.x kommer jag implementera en JS-fallback där body-taggen ges en class beroende på fönstrets storlek, denna class kan sen användas för att ge FF-användarna samma upplevelse som de med modernare webbläsare.
+För äldre browsers som Internet Explorer 8 kommer jag implementera en JS-fallback där body-taggen ges en class beroende på fönstrets storlek, denna class kan sen användas för att ge FF-användarna samma upplevelse som de med modernare webbläsare.
 
 ## Övrigt
 
