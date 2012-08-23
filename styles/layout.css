@@ -64,7 +64,7 @@ body.contact {
 #lang li {
   float: left;
   height: 12px;
-  margin: 0 5px 0 0;
+  margin: 10px 5px 0 0;
   overflow: hidden;
   width: 20px;
   background: url(../images/header-lang-flags.png) no-repeat scroll 0 0;
@@ -606,7 +606,69 @@ a:visited {
           only screen and (-o-min-device-pixel-ratio: 3/2),
           only screen and (min--moz-device-pixel-ratio: 1.5),
           only screen and (min-device-pixel-ratio: 1.5) {
-            /*retina-bilder som bakgrund kan placeras här*/
+            /*
+            	Retina-bilder som bakgrund kan placeras här
+            	Jag har inte lagt in de faktiska filerna, men genom att lägga in filer döpta som här under kan man servera snyggare grafik till de webbläsare som vill ha.
+            */
+        body {
+          background: url(../images/body-background@2x.png) repeat-x scroll left top;
+        }
+        body.contact {
+          background-image: url(../images/body-sub-background@2x.png);
+        } 
+        #wrap {
+          background: url(../images/footer-background@2x.png) repeat-x scroll left bottom;
+        #nav li.active, #nav li:hover {
+          background: url(../images/header-nav-hover@2x.png) no-repeat scroll center bottom;
+        }
+        #lang li {
+          background: url(../images/header-lang-flags@2x.png) no-repeat scroll 0 0;
+        }
+        #content {
+          background: url(../images/body-shades-top@2x.png) no-repeat scroll center 100px;
+        }
+        #footer {
+          background: url(../images/footer-fade-background@2x.png) no-repeat scroll center -174px;
+        }
+        #aside .news-item {
+          background: url(../images/body-newsitem-background@2x.png) no-repeat scroll left top;
+        }
+          @media only screen and (min-width: 1600px) {
+            body {
+              background-image: url(../images/body-background-1600@2x.png);
+            }
+            body.contact {
+              background-image: url(../images/body-sub-background-1600@2x.png);
+            } 
+            #wrap {
+              background-image: url(../images/footer-background-1600@2x.png);
+            }
+            #content {
+              background-image: url(../images/body-shades-top-1600@2x.png);
+            }
+            #lang li {
+              background-image: url(../images/header-lang-flags-1600@2x.png);
+            }
+            #aside .news-item {
+              background-image: url(../images/body-newsitem-background-1600@2x.png);
+            }
+            #footer {
+              background: url(../images/footer-fade-background-1600@2x.png) no-repeat scroll 0 -325px;
+            }
+          }
+          @media handheld and (max-width: 767px), 
+          		screen and (max-device-width: 767px),
+          		screen and (max-width: 767px) {
+        	  body, body.contact {
+        	    background-image: url(../images/body-background-320@2x.png);
+        	  }
+        	  #wrap {
+                background-image: url(../images/footer-background-320@2x.png);
+          	  }
+          	  #aside .news-item {
+                background-image: url(../images/body-newsitem-background-320@2x.png);
+        	  }
+            
   }
 
 /* #Font-Face
