@@ -77,11 +77,9 @@ body.contact.ie-1600 {
 }
 .ie-1600 #lang li {
   height: 16px;
-  margin: 0 8px;
   background-image: url(../images/header-lang-flags-1600.png);
 }
 .ie-1600 #lang {
-  margin: 15px 10px 0 0;
 }
 .ie-1600 #lang .en_uk {
   background-position: 0 -30px;
@@ -245,12 +243,8 @@ body.contact.ie-1600 {
     width: 108px;
   }
   .ie-320 #nav {
-    display: block;
     float: none;
-    position: relative;
-    width: 310px;
     z-index: 250;
-    margin: 0;
   }
   .ie-320 #nav li.active, .ie-320 #nav li:hover {
     background: none;
@@ -266,7 +260,6 @@ body.contact.ie-1600 {
     font-size: 14px;
   }
   .ie-320 #lang {
-    margin: 10px 0;
   }
   .ie-320 #content, .ie-320 #header {
     padding: 0 10px;
@@ -382,16 +375,8 @@ body.contact.ie-1600 {
 /*
     Övriga fixar
 */
-#nav, #lang {
-  position: relative;
+#nav {
   z-index: 500;
-}
-#content {
-  top: -86px;
-}
-#lang { 
-  margin-top: -40px;
-  margin-bottom: 60px;
 }
 #lang li a {
   padding-left: 2em;
@@ -404,13 +389,8 @@ body.contact.ie-1600 {
   background-image: url(../images/transparent.png);
   font-size: 81%;
 }
-#footer { 
-  margin-top: -165px;
-  position: relative;
-}
 #footer .address {
   position: relative;
-  top: -45px;
 }
 #footer .certifications { 
   margin-top: -45px;
