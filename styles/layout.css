@@ -115,10 +115,10 @@ body.contact {
   -o-border-radius: 7px;
   border-radius: 7px;
   padding: 10px;
-  -moz-box-shadow: 0 0 10px #9d9d9d;
-  -webkit-box-shadow: 0 0 10px #9d9d9d;
-  -o-box-shadow: 0 0 10px #c3c3c3;
-  box-shadow: 0 0 10px #9d9d9d;
+  -moz-box-shadow: 0 0 6px #9d9d9d;
+  -webkit-box-shadow: 0 0 6px #9d9d9d;
+  -o-box-shadow: 0 0 6px #c3c3c3;
+  box-shadow: 0 0 6px #9d9d9d;
   background-color: #fbfafa;
   margin: 10px 10px 2px 20px;
 }
@@ -173,7 +173,7 @@ body.contact {
   position: absolute;
   top: 100px;
   width: 123px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 #aside {
   float: left;
