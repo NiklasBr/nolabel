@@ -1,6 +1,7 @@
 
 // http://nivo.dev7studios.com/support/jquery-plugin-usage/
 $(window).load(function() {
+    media_queries();
     $('#slider').nivoSlider({
         effect: 'fold', // Specify sets like: 'fold,fade,sliceDown'
         animSpeed: 750, // Slide transition speed
@@ -20,6 +21,10 @@ $(window).resize(function() {
     }, 500);
 });
 $(window).bind('resizeEnd', function() {
+    media_queries();
+});
+
+function media_queries() {
     if ($(window).width() >= 1600) {
         $("body").addClass("ie-1600").removeClass("ie-320");
     } else if ($(window).width() <= 767) {
@@ -27,11 +32,12 @@ $(window).bind('resizeEnd', function() {
     } else {
         $("body").removeClass("ie-320").removeClass("ie-1600");
     }
-});
-
+}
 // Bättra på språknavigationen genom att kopiera in länkens text till title-attribut i det synliga li-elementet
 $(document).ready(function() {
     $("#lang li a").each(function() {
         $(this).parent('li').attr('title', $(this).text());
     });
 });
+
+
