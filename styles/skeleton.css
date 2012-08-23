@@ -176,8 +176,10 @@
 
     /* Note: Design for a width of 320px */
 
-    @media handheld and (max-width: 767px), 
-    		screen and (max-device-width: 767px) {
+@media handheld and (max-width: 767px), 
+		screen and (max-device-width: 767px),
+		screen and (max-width: 767px) {
+
         .container { width: 320px; }
         .container .columns,
         .container .column { margin: 0; }
