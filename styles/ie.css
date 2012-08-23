@@ -262,7 +262,12 @@ body.contact.ie-1600 {
     font-size: 14px;
   }
   .ie-320 #lang {
-    top: 80px;
+    right: 11px;
+    top: 85px;
+  }
+  .ie-320 #lang li {
+  	margin-left: 0;
+  	margin-right: 2px;
   }
   .ie-320 #content, .ie-320 #header {
     padding: 0 10px;

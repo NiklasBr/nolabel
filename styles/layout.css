@@ -56,14 +56,14 @@ body.contact {
 }
 #lang {
   position: absolute;
-  right: 20px;
+  right: 25px;
   top: 60px;
   z-index: 100;
 }
 #lang li {
   float: left;
   height: 12px;
-  margin: 10px 5px 0 0;
+  margin: 10px 3px 0 0;
   overflow: hidden;
   width: 20px;
   background: url(../images/header-lang-flags.png) no-repeat scroll 0 0;
@@ -337,7 +337,8 @@ a:visited {
       line-height: 48px;
     }
     #lang {
-	  top: 115px;
+      right: 40px;
+	  top: 110px;
     }
     #lang li {
       height: 16px;
@@ -486,6 +487,10 @@ a:visited {
         font-weight: normal;
         font-style: normal;
         font-size: 14px;
+	  }
+	  #lang li {
+	  	margin-left: 0;
+	  	margin-right: 2px;
 	  }
 	  #lang {
 	  	top: 85px;
