@@ -244,6 +244,8 @@ body.contact.ie-1600 {
   }
   .ie-320 #nav {
     float: none;
+    position: relative;
+    margin: 0 0 54px 0;
     z-index: 250;
   }
   .ie-320 #nav li.active, .ie-320 #nav li:hover {
@@ -260,13 +262,14 @@ body.contact.ie-1600 {
     font-size: 14px;
   }
   .ie-320 #lang {
+    top: 80px;
   }
   .ie-320 #content, .ie-320 #header {
     padding: 0 10px;
   }
   .ie-320 #slider {
     height: 66px;
-    margin: 0 0 15px 0;
+    margin: 54px 0 15px 0;
   }
   .ie-320 #main {
     -moz-border-radius: 0;
