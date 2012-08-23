@@ -109,6 +109,9 @@ body.contact {
 }
 #main {
   border: 1px solid #fff;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
   border-radius: 7px;
   padding: 10px;
   -moz-box-shadow: 0 0 10px #9d9d9d;
@@ -156,6 +159,9 @@ body.contact {
   margin: 0;
 }
 #promo .person img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
   height: 157px;
   width: 133px;
@@ -277,7 +283,6 @@ a:visited {
   font-size: 12px;
 }
 #aside .news-item a {
-  text-overflow: ellipsis;  
   overflow: hidden;
 }
 .description {
@@ -432,7 +437,8 @@ a:visited {
   }
   
   @media handheld and (max-width: 767px), 
-  		screen and (max-device-width: 767px) {
+  		screen and (max-device-width: 767px),
+  		screen and (max-width: 767px) {
 	  body, body.contact {
 	    background-image: url(../images/body-background-320.png);
 	  }
@@ -476,7 +482,10 @@ a:visited {
   	  	margin: 0 0 15px 0;
   	  }
   	  #main {
-        border-radius: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;        
         padding: 0;
         -moz-box-shadow: none;
         -webkit-box-shadow: none;
