@@ -77,14 +77,16 @@ body.contact {
   background-position: 0 -60px;
 }
 #content {
-	padding: 0 20px;
-	background: url(../images/body-shades-top.png) no-repeat scroll center 100px;
+  padding: 0 20px;
+  background: url(../images/body-shades-top.png) no-repeat scroll center 100px;
+  position: relative;
+  z-index: 50;
 }
 #footer {
-  background: url(../images/footer-fade-background.png) no-repeat scroll 20px top;
+  background: url(../images/footer-fade-background.png) no-repeat scroll center -174px;
   height: 101px;
-  margin: 10px 0 0 0;
-  padding: 0 20px;
+  margin: -90px 0 0 0;
+  padding: 100px 20px 0 20px;
 }
 
 /* #Page Styles
@@ -108,12 +110,12 @@ body.contact {
   border: 1px solid #fff;
   border-radius: 7px;
   padding: 10px;
-  -moz-box-shadow: 0 0 9px #c3c3c3;
-  -webkit-box-shadow: 0 0 9px #c3c3c3;
-  -o-box-shadow: 0 0 9px #c3c3c3;
-  box-shadow: 0 0 9px #c3c3c3;
+  -moz-box-shadow: 0 0 10px #9d9d9d;
+  -webkit-box-shadow: 0 0 10px #9d9d9d;
+  -o-box-shadow: 0 0 10px #c3c3c3;
+  box-shadow: 0 0 10px #9d9d9d;
   background-color: #fbfafa;
-  margin: 10px 20px;
+  margin: 10px 10px 2px 20px;
 }
 #promo {
   float: left;
@@ -130,8 +132,44 @@ body.contact {
   column-count: 2;
   column-gap: 18px;
 }
+.contact #promo .post {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  -o-column-count: 1;
+  column-count: 1;
+}
+.contact #promo {
+  float: none;
+  padding: 0;
+  width: inherit;
+}
+#promo .person {
+  float: left;
+  height: 157px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 25px 10px 0;
+  width: 133px;
+}
+#promo .person.omega {
+  margin: 0;
+}
+#promo .person img {
+  border-radius: 10px;
+  height: 157px;
+  width: 133px;
+}
+#promo .person .details {
+  height: 45px;
+  padding: 0 0 0 10px;
+  position: absolute;
+  top: 100px;
+  width: 123px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 #aside {
   float: left;
+  min-height: 250px;
   width: 195px;
 }
 #aside .news-item {
@@ -144,6 +182,22 @@ body.contact {
   display: inline-block;
   height: 38px;
   width: 179px;
+}
+.sub-page #aside {
+  /*beroende på hur linjen ska bete sig kan man behöva flytta den till #promo*/
+  border-left: 1px solid silver;
+  padding: 40px 0 0 25px;
+  width: 185px;
+}
+.sub-page #aside .gallery-item {
+  float: left;
+  width: 82px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.sub-page #aside .gallery-item img {
+  height: 66px;
+  width: 82px;
 }
 #footer .address.alpha {
   margin-left: 25px;
@@ -224,6 +278,10 @@ a:visited {
 #aside .news-item a {
   text-overflow: ellipsis;  
   overflow: hidden;
+}
+.description {
+  color: #004477;
+  font: 10px "Big Caslon", "Times New Roman", Times, serif;
 }
 #footer, #footer a {
   font-size: 9px;
