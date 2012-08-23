@@ -7,7 +7,7 @@ nolabel
 
 ## Plugins
 
-[Nivo Slider](http://nivo.dev7studios.com) för bildspelet, samt jQuery 1.8 för att driva den.
+[Nivo Slider](http://nivo.dev7studios.com) för bildspelet, samt jQuery 1.8 för att driva den. [Lojjic's PIE](https://github.com/lojjic/PIE) används för att få in CSS3-funktioner i IE8.
 
 ## Uppskattad tidsåtgång
 
