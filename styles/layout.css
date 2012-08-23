@@ -350,9 +350,26 @@ a:visited {
     #aside {
       width: 300px;
     }
+    #promo .person {
+      height: 243px;
+      margin: 0 45px 20px 0;
+      width: 206px;
+    }
+    #promo .person.omega {
+      margin: 0;
+    }
+    #promo .person img {
+      height: 243px;
+      width: 206px;
+    }
     #promo .person .details {
+      height: 70px;
+      padding: 0 0 0 10px;
+      top: 160px;
+      width: 206px;
       font-size: 18px;
     }
+    
     #aside .news-item {
       background-image: url(../images/body-newsitem-background-1600.png);
       height: 61px;
@@ -483,6 +500,17 @@ a:visited {
   	    margin: 0 8px 15px 0;
   	    width: 133px;
   	  }
+  	  #promo .person.even {
+  	  	margin: 0;
+  	  }
+  	  #promo .person img {
+  	    height: 157px;
+  	    width: 133px;
+  	  }
+  	  #promo .person .details {
+  	    height: 45px;
+  	  }
+  	  
   	  #aside {
   	  	width: 270px;
   	  }
