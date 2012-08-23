@@ -1,9 +1,25 @@
-#content { top: -86px; }
-#lang { margin-top: -40px; margin-bottom: 60px; }
-#lang li a:before {
-    content: "    ";  
+#content {
+  top: -86px;
 }
-#main { behavior: url(styles/PIE/PIE.htc); }
-#footer { margin-top: -165px; }
-#footer .address { margin-top: -40px; }
-#footer .certifications { margin-top: -45px; }
+#lang { 
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+#lang li a:before {
+  content: "    ";  
+}
+#main {
+  behavior: url(styles/PIE/PIE.htc);
+}
+#footer { 
+  margin-top: -165px;
+  position: relative;
+}
+#footer .address {
+  position: relative;
+  top: -45px;
+}
+#footer .certifications { 
+  margin-top: -45px;
+  width: 120px;
+}
