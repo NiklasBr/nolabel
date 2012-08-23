@@ -330,6 +330,9 @@ a:visited {
       height: 161px;
       background: url(../images/footer-fade-background-1600.png) no-repeat scroll 0 -325px;
     }
+    #footer > * {
+      margin-top: 10px;
+    }
     
   }
   
@@ -361,6 +364,21 @@ a:visited {
         margin: 5px 0 5px -10px;
         padding: 5px 20px 4px 20px;
 		line-height: 130%;
+	  }
+	  #footer {
+	    background: none;
+        font-size: 12px;
+	  }
+	  #footer .address {
+       width: inherit;
+	  }
+	  #footer .address.alpha {
+	    margin-left: 0;
+	  }
+	  #footer .certifications {
+		width: 280px;
+		margin: 10px 0;
+		text-align: center;
 	  }
   }
   
