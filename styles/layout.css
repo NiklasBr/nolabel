@@ -12,7 +12,7 @@
 	#Site Styles
 	#Page Styles
 	#General Text Styles
-	#Media Queries
+	#Retina & Media Queries
 	#Font-Face */
 
 /* #Site Styles
@@ -21,13 +21,16 @@
 body {
   background: url(../images/body-background.png) repeat-x scroll left top;
 }
+body.contact {
+  background-image: url(../images/body-sub-background.png);
+} 
 #wrap {
   background: url(../images/footer-background.png) repeat-x scroll left bottom;
 }
 #header {
+  padding: 0 30px;
 }
 #logo {
-	margin-left: 25px;
 }
 #logo img {
   height: 113px;
@@ -37,7 +40,7 @@ body {
 }
 #nav {
   float: right;
-  margin-top: 25px;
+  margin: 25px -10px 0 0;
 }
 #nav li {
   float: left;
@@ -215,7 +218,7 @@ a {
   text-align: right;
 }
 
-/* #Media Queries
+/* #Retina & Media Queries
 ================================================== */
 
 	@media only screen and (max-width: 320px) {
@@ -226,12 +229,12 @@ a {
 
 	}
 	
-	@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
           only screen and (-o-min-device-pixel-ratio: 3/2),
           only screen and (min--moz-device-pixel-ratio: 1.5),
           only screen and (min-device-pixel-ratio: 1.5) {
             /*retina-bilder som bakgrund kan placeras här*/
-	}
+  }
 
 /* #Font-Face
 ================================================== */
