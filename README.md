@@ -1,5 +1,7 @@
-nolabel
+nolabel: fluid
 =======
+
+nolabel implementerat i en fluid grid.
 
 ## Struktur
 
