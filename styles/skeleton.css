@@ -11,6 +11,7 @@
 /* Table of Contents
 ==================================================
     #Base 1024 Grid
+    #1600 Grid
     #Tablet (Portrait)
     #Mobile (Portrait)
     #Mobile (Landscape)
@@ -70,13 +71,20 @@
     .container .offset-by-fifteen               { padding-left: 960px; }
 
 
+/* # 1600 Grid
+================================================== */
+
+	@media only screen and (min-width: 1600px) {
+		.container                                  { width: 1600px; }
+		
+	}
 
 /* #Tablet (Portrait)
 ================================================== */
 
     /* Note: Design for a width of 768px */
 
-    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /*@media only screen and (min-width: 768px) and (max-width: 959px) {
         .container                                  { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  }
@@ -103,10 +111,10 @@
         .container .sixteen.columns                 { width: 748px; }
 
         .container .one-third.column                { width: 236px; }
-        .container .two-thirds.column               { width: 492px; }
+        .container .two-thirds.column               { width: 492px; }*/
 
         /* Offsets */
-        .container .offset-by-one                   { padding-left: 48px; }
+        /*.container .offset-by-one                   { padding-left: 48px; }
         .container .offset-by-two                   { padding-left: 96px; }
         .container .offset-by-three                 { padding-left: 144px; }
         .container .offset-by-four                  { padding-left: 192px; }
@@ -121,7 +129,7 @@
         .container .offset-by-thirteen              { padding-left: 624px; }
         .container .offset-by-fourteen              { padding-left: 672px; }
         .container .offset-by-fifteen               { padding-left: 720px; }
-    }
+    }*/
 
 
 /*  #Mobile (Portrait)
@@ -129,8 +137,8 @@
 
     /* Note: Design for a width of 320px */
 
-    @media only screen and (max-width: 767px) {
-        .container { width: 300px; }
+    @media only screen and (max-width: 480px) {
+        .container { width: 320px; }
         .container .columns,
         .container .column { margin: 0; }
 
@@ -152,7 +160,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 300px; }
+        .container .two-thirds.column  { width: 320px; }
 
         /* Offsets */
         .container .offset-by-one,
@@ -179,7 +187,7 @@
 
     /* Note: Design for a width of 480px */
 
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*@media only screen and (min-width: 480px) and (max-width: 767px) {
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -203,7 +211,7 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
-    }
+    }*/
 
 
 /* #Clearing
