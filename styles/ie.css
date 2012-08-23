@@ -8,8 +8,13 @@
 #lang li a:before {
   content: "    ";  
 }
-#main {
+#main, #promo .person img {
   behavior: url(styles/PIE/PIE.htc);
+}
+#promo .person .details {
+  background-color: none;
+  background-image: url(../images/transparent.png);
+  font-size: 81%;
 }
 #footer { 
   margin-top: -165px;
