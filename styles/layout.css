@@ -28,7 +28,7 @@ body.contact {
 }
 #header {
   display: initial;
-  padding: 0 30px;
+  padding: 0 30px 0 28px;
 }
 #logo {
   /*samma som för margin-top på #slider*/
@@ -42,11 +42,11 @@ body.contact {
 }
 #nav {
   float: right;
-  margin: 25px -10px 0 0;
+  margin: 25px 10px 0 0;
 }
 #nav li {
   float: left;
-  margin: 0 5px;
+  margin: 0 9px 0 7px;
 }
 #nav li.active, #nav li:hover {
   background: url(../images/header-nav-hover.png) no-repeat scroll center bottom;
@@ -96,7 +96,7 @@ body.contact {
 #slider {
   clear: both;
   height: 222px;
-  margin: -55px 0 25px 0;
+  margin: -55px 0 22px 0;
 }
 #slider img {
   position: absolute;
@@ -251,7 +251,7 @@ p, .news-item {
   font-size: 20px;
   line-height: 1em;
 }
-a {
+a, #nav a {
   color: #004477;
   text-decoration: none;
 }
@@ -318,7 +318,7 @@ a:visited {
 	  background: url(../images/body-shades-top-1600.png) no-repeat scroll center 150px;
   }
     #header {
-      display: initial;	
+      margin-left: 16px;
     }
     #logo img {
       height: 176px;
@@ -479,10 +479,10 @@ a:visited {
         background: none;
 	  }
 	  #nav li {
-	  	margin: 0 3px;
+	  	margin: 0 3px 0 4px;
 	  }
 	  #nav li a {
-        line-height: 22px;
+        line-height: 20px;
         padding: 0 5px 10px;
         font-weight: normal;
         font-style: normal;

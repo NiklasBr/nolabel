@@ -252,10 +252,10 @@ body.contact.ie-1600 {
     background: none;
   }
   .ie-320 #nav li {
-    margin: 0 3px;
+    margin: 0 3px 0 3px;
   }
   .ie-320 #nav li a {
-    line-height: 22px;
+    line-height: 20px;
     padding: 0 5px 10px;
     font-weight: normal;
     font-style: normal;
