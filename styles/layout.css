@@ -315,8 +315,8 @@ a:visited {
     }
     #content {
       padding: 0 30px;
-      background-image: url(../images/body-shades-top-1600.png);
-    }
+	  background: url(../images/body-shades-top-1600.png) no-repeat scroll center 150px;
+  }
     #header {
       display: initial;	
     }
@@ -355,7 +355,7 @@ a:visited {
     }
     #slider {
       height: 345px;
-      margin: -83px 0 25px 0;
+      margin: -83px 0 25px 1px;
     }
     #main {
       padding: 20px;
