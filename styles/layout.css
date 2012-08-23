@@ -17,7 +17,6 @@
 
 /* #Site Styles
 ================================================== */
-
 body {
   background: url(../images/body-background.png) repeat-x scroll left top;
 }
@@ -31,6 +30,8 @@ body.contact {
   padding: 0 30px;
 }
 #logo {
+  /*samma som för margin-top på #slider*/
+  margin-bottom: -55px;
 }
 #logo img {
   height: 113px;
@@ -259,6 +260,9 @@ a:visited {
 #lang li a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
   opacity: 0;
+  /*fix för IE8 och IE7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 #promo .person .details > * {
   display: block;
