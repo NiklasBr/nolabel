@@ -302,13 +302,16 @@ body.contact.ie-1600 {
   .ie-320 h2 {
     font-size: 18px;
    }
+   .ie-320 #main h1, .ie-320 #main h2 {
+   	margin-bottom: 3px;
+   }
   .ie-320 .contact #promo {
-    padding:  0 12px;
+    padding:  0 10px;
   }
   .ie-320 #promo, .ie-320 #aside {
     float: left;
     width: inherit;
-    padding: 0 15px;
+    padding: 0 9px;
   }
   .ie-320 #promo .post {
     -moz-column-count: 1;
@@ -401,6 +404,5 @@ body.contact.ie-1600 {
   position: relative;
 }
 #footer .certifications { 
-  margin-top: -45px;
   width: 120px;
 }
