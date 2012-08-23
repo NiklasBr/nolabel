@@ -294,11 +294,74 @@ a:visited {
 /* #Retina & Media Queries
 ================================================== */
   @media only screen and (min-width: 1600px) {
+    body {
+      background-image: url(../images/body-background-1600.png);
+    }
+    body.contact {
+      background-image: url(../images/body-sub-background-1600.png);
+    } 
+    #wrap {
+      background-image: url(../images/footer-background-1600.png);
+    }
+    #content {
+      padding: 0 30px;
+      background-image: url(../images/body-shades-top-1600.png);
+    }
+    #lang li {
+      background-image: url(../images/header-lang-flags-1600.png);
+    }
+    #lang .en_uk {
+      background-position: 0 -20px;
+    }
+    #lang .de_de {
+      background-position: 0 -40px;
+    }
+    #lang .fr_fr {
+      background-position: 0 -60px;
+    }
+    #aside .news-item {
+      background-image: url(../images/body-newsitem-background-1600.png);
+      height: 61px;
+      width: 282px;
+      padding: 12px 12px 12px 10px;
+    }
+    #footer {
+      font-size: 12px;
+      height: 161px;
+      background: url(../images/footer-fade-background-1600.png) no-repeat scroll 0 -325px;
+    }
     
   }
   
   @media handheld and (max-width: 767px), 
   		screen and (max-device-width: 767px) {
+	  body, body.contact {
+	    background-image: url(../images/body-background-320.png);
+	  }
+	  #wrap {
+        background-image: url(../images/footer-background-320.png);
+  	  }
+	  #nav li.active, #nav li:hover {
+        background: none;
+	  }
+  	  #main {
+        border-radius: 0;
+        padding: 0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+        background: none;
+        margin: 0;
+  	  }
+  	  #aside .news-item {
+        background-image: url(../images/body-newsitem-background-320.png);
+        height: 65px;
+        width: 257px;
+        margin: 5px 0 5px -10px;
+        padding: 5px 20px 4px 20px;
+		line-height: 130%;
+	  }
   }
   
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
