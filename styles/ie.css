@@ -1,3 +1,7 @@
+#nav, #lang {
+  position: relative;
+  z-index: 500;
+}
 #content {
   top: -86px;
 }
@@ -5,8 +9,8 @@
   margin-top: -40px;
   margin-bottom: 60px;
 }
-#lang li a:before {
-  content: "    ";  
+#lang li a {
+  padding-left: 2em;
 }
 #main, #promo .person img {
   behavior: url(styles/PIE/PIE.htc);
