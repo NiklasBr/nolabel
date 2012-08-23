@@ -339,6 +339,9 @@ a:visited {
       height: 345px;
       margin: -83px 0 25px 0;
     }
+    #aside {
+      width: 300px;
+    }
     #promo .person .details {
       font-size: 18px;
     }
@@ -347,6 +350,11 @@ a:visited {
       height: 61px;
       width: 282px;
       padding: 12px 12px 12px 10px;
+    }
+    #aside .news-item a {
+      height: 54px;
+      line-height: 18px;
+      width: 280px;
     }
     .description {
       font-size: 16px;
@@ -448,6 +456,9 @@ a:visited {
   	  h2 {
   	    font-size: 18px;
   	   }
+  	  #aside {
+  	  	width: 270px;
+  	  }
   	  .description {
   	  	font-size: 14px;
   	  	margin: 0 0 0 10px;
@@ -459,6 +470,10 @@ a:visited {
         margin: 5px 0 5px -10px;
         padding: 5px 20px 4px 20px;
 		line-height: 130%;
+	  }
+	  #aside .news-item a {
+		width: inherit;
+		height: 60px;
 	  }
 	  #footer {
 	    background: none;
