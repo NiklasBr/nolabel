@@ -5,7 +5,7 @@ nolabel implementerat i en fluid grid.
 
 ## Struktur
 
-[Skeleton Grid](http://www.getskeleton.com) används som "nollställare" och grund.
+[Skeleton Grid](http://www.getskeleton.com) används som "nollställare" och grund. Eftersom denna grid är statisk har stora delar kommenterats bort. Dessa delar laddas visserligen in och kostar bandbredd, en CSS-compressor i stil med http://refresh-sf.com/yui/ som rensar bort kommentarer och whitespace kan användas om man inte redan implementerar i ett system som gör det automatiskt (CSS Minify i Wordpress eller Drupals Performace).
 
 ## Plugins
 
@@ -13,14 +13,14 @@ nolabel implementerat i en fluid grid.
 
 ## Uppskattad tidsåtgång
 
- * 3-4 timmar för att göra mallen för 1024px (inklusive att skapa detta dokument och repository).
- * Därefter cirka 1-2h för den mobila 320px-varianten, där den kommer testas både i iOS och Android 4.1
- * Cirka 1 timme för mallen på 1600px
- * Cirka 1 timme för bakåtkompabilitet med IE8
+ * 4-5 timmar för att göra mallen för 1600px.
+ * 1-2 timmar för att få den att skala ner till 1024px.
+ * 2 timmar för att få den att skala ner till 320px.
+ * Cirka 1-2 timmar för bakåtkompabilitet med IE8.
 
 ## Kompabilitet
 
-För äldre browsers som Internet Explorer 8 kommer jag implementera en JS-fallback där body-taggen ges en class beroende på fönstrets storlek, denna class kan sen användas för att ge FF-användarna samma upplevelse som de med modernare webbläsare.
+För äldre browsers som Internet Explorer 8 kommer jag implementera en JS-fallback där body-taggen ges en class beroende på fönstrets storlek, denna class samt PIE kan sen användas för att ge IE-användarna samma upplevelse som de med modernare webbläsare.
 
 ## Övrigt
 
