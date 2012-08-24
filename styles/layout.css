@@ -18,85 +18,55 @@
 /* #Site Styles
 ================================================== */
 body {
-  background: url(../images/body-background.png) repeat-x scroll left top;
+  background: url(../images/body-background-1600.png) repeat-x scroll left top;
 }
 body.contact {
-  background-image: url(../images/body-sub-background.png);
+  background-image: url(../images/body-sub-background-1600.png);
 } 
 #wrap {
-  background: url(../images/footer-background.png) repeat-x scroll left bottom;
+  background: url(../images/footer-background-1600.png) repeat-x scroll left bottom;
 }
 #header {
-  display: initial;
-  padding: 0 30px 0 28px;
 }
 #logo {
-  /*samma som för margin-top på #slider*/
-  margin-bottom: -55px;
 }
 #logo img {
-  height: 113px;
-  position: relative;
-  width: 212px;
-  z-index: 100;
 }
 #nav {
-  float: right;
-  margin: 25px 10px 0 0;
 }
 #nav li {
-  float: left;
-  margin: 0 9px 0 7px;
 }
 #nav li.active, #nav li:hover {
   background: url(../images/header-nav-hover.png) no-repeat scroll center bottom;
 }
 #nav li a {
-  padding: 0 10px;
 }
 #lang {
-  position: absolute;
-  right: 25px;
-  top: 60px;
-  z-index: 100;
 }
 #lang li {
-  float: left;
-  height: 12px;
-  margin: 10px 3px 0 0;
-  overflow: hidden;
-  width: 20px;
-  background: url(../images/header-lang-flags.png) no-repeat scroll 0 0;
+  background: url(../images/header-lang-flags-1600.png) no-repeat scroll 0 0;
+  height: 15px;
 }
 #lang .en_uk {
-  background-position: 0 -20px;
+  background-position: 0 -30px;
 }
 #lang .de_de {
-  background-position: 0 -40px;
-}
-#lang .fr_fr {
   background-position: 0 -60px;
 }
+#lang .fr_fr {
+  background-position: 0 -90px;
+}
 #content {
-  padding: 0 20px;
-  background: url(../images/body-shades-top.png) no-repeat scroll center 100px;
-  position: relative;
-  z-index: 50;
+  background: url(../images/body-shades-top-1600.png) no-repeat scroll center 100px;
 }
 #footer {
-  background: url(../images/footer-fade-background.png) no-repeat scroll center -174px;
-  height: 101px;
-  margin: -90px 0 0 0;
-  padding: 100px 20px 0 20px;
+  background: url(../images/footer-fade-background-1600.png) no-repeat scroll center -174px;
 }
 
 /* #Page Styles
 ================================================== */
 
 #slider {
-  clear: both;
-  height: 222px;
-  margin: -55px 0 22px 0;
 }
 #slider img {
   position: absolute;
@@ -123,9 +93,6 @@ body.contact {
   margin: 10px 10px 2px 20px;
 }
 #promo {
-  float: left;
-  width: 695px;
-  padding: 0 25px 0 0;
 }
 #promo .post {
   -moz-column-count: 2;
@@ -149,12 +116,6 @@ body.contact {
   width: inherit;
 }
 #promo .person {
-  float: left;
-  height: 157px;
-  overflow: hidden;
-  position: relative;
-  margin: 0 25px 10px 0;
-  width: 133px;
 }
 #promo .person.omega {
   margin: 0;
@@ -164,111 +125,71 @@ body.contact {
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-  height: 157px;
-  width: 133px;
 }
 #promo .person .details {
-  height: 45px;
-  padding: 0 0 0 10px;
   position: absolute;
-  top: 100px;
-  width: 123px;
   background-color: rgba(255, 255, 255, 0.75);
 }
 #aside {
-  float: left;
-  min-height: 250px;
-  width: 195px;
 }
 #aside .news-item {
-  background: url(../images/body-newsitem-background.png) no-repeat scroll left top;
-  padding: 8px 8px 14px;
-  height: 38px;
-  width: 179px;
+  background: url(../images/body-newsitem-background-1600.png) no-repeat scroll left top;
 }
 #aside .news-item a {
-  display: inline-block;
-  height: 38px;
-  width: 179px;
 }
 .sub-page #aside {
   /*beroende på hur linjen ska bete sig kan man behöva flytta den till #promo*/
   border-left: 1px solid silver;
-  padding: 40px 0 0 25px;
-  width: 185px;
 }
 .sub-page #aside .gallery-item {
   float: left;
-  width: 82px;
-  margin-right: 8px;
-  margin-bottom: 8px;
 }
 .sub-page #aside .gallery-item img {
-  height: 66px;
-  width: 82px;
 }
 #footer .address.alpha {
-  margin-left: 25px;
 }
 #footer .certifications {
   float: right;
-  margin: 5px 25px 0 0;
 }
 #footer .certifications .symbol1 {
-  height: 36px;
-  width: 24px;
 }
 #footer .certifications .symbol2 {
-  height: 36px;
-  width: 40px;
 }
 /* #General Text Styles
 ================================================== */
 
-h1, h2, h3, h4, h5, h6, .ingress {
+h1, h2, h3, h4, h5, h6, .ingress, a, #nav a, #promo .person .name, .description {
   color: #004477;
   /*blir Helvetica på iOS/OSX samt Arial på Windows för bästa läsbarhet*/
   font-family: sans-serif;
   font-weight: bold;
 }
 h1 {
-  font-size: 30px;
 }
 h2 {
-  font-size: 23px;
 }
 #main h1, #main h2 {
-  line-height: 30px;
-  margin-bottom: 10px;
 }
 p, .news-item {
   font: 16px Garamond, "Times New Roman", Times, serif;
 }
-.ingress {
-  color: #004477;
+.ingress, a, #nav a, #promo .person .name, .description {
+  text-decoration: none;
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
-  line-height: 1em;
-}
-a, #nav a {
-  color: #004477;
-  text-decoration: none;
 }
 a:visited {
   color: #c0c0c0;
 }
 #nav li a {
-  line-height: 38px;
   color: #c8a675;
-  font-weight: bold;
-  font-size: 12px;
 }
 #lang li a {
   /*visa inte text, men låt det vara tillgångligt för hjälpmedel och sökmotorer*/
   display: block;
   height: 12px;
   opacity: 0;
+  padding-left: 2em;
   width: 20px;
 }
 #promo .person .details > * {
@@ -276,11 +197,7 @@ a:visited {
   clear: both;
 }
 #promo .person .details {
-  font-size: 12px;
   line-height: 125%;
-}
-#promo .person .name {
-  color: #004477;
 }
 #aside .news-item {
   line-height: 90%;
@@ -290,11 +207,9 @@ a:visited {
   overflow: hidden;
 }
 .description {
-  color: #004477;
   font: 10px "Big Caslon", "Times New Roman", Times, serif;
 }
 #footer, #footer a {
-  font-size: 9px;
   color: #fff;
 }
 #footer .certifications {
@@ -304,314 +219,11 @@ a:visited {
 /* #Retina & Media Queries
 ================================================== */
   @media only screen and (min-width: 1600px) {
-    body {
-      background-image: url(../images/body-background-1600.png);
-    }
-    body.contact {
-      background-image: url(../images/body-sub-background-1600.png);
-    } 
-    #wrap {
-      background-image: url(../images/footer-background-1600.png);
-    }
-    #content {
-      padding: 0 30px;
-	  background: url(../images/body-shades-top-1600.png) no-repeat scroll center 150px;
-  }
-    #header {
-      margin-left: 16px;
-    }
-    #logo img {
-      height: 176px;
-      width: 330px;
-    }
-    #nav {
-      float: right;
-      margin-top: 50px;
-    }
-    #nav li {
-      margin: 0 20px;
-    }
-    #nav li a {
-      font-size: 18px;
-      line-height: 48px;
-    }
-    #lang {
-      right: 40px;
-	  top: 110px;
-    }
-    #lang li {
-      height: 16px;
-      margin: 0 8px;
-      background-image: url(../images/header-lang-flags-1600.png);
-    }
-    #lang .en_uk {
-      background-position: 0 -30px;
-    }
-    #lang .de_de {
-      background-position: 0 -60px;
-    }
-    #lang .fr_fr {
-      background-position: 0 -90px;
-    }
-    #slider {
-      height: 345px;
-      margin: -83px 0 25px 1px;
-    }
-    #main {
-      padding: 15px;
-      margin: 40px 30px 0 30px;
-    }
-    #promo {
-      padding: 0 30px 0 0;
-      width: 1100px;
-    }
-    #aside {
-      width: 300px;
-    }
-    #promo .person {
-      height: 243px;
-      margin: 0 45px 20px 0;
-      width: 206px;
-    }
-    #promo .person.omega {
-      margin: 0;
-    }
-    #promo .person img {
-      height: 243px;
-      width: 206px;
-    }
-    #promo .person .details {
-      height: 70px;
-      padding: 0 0 0 10px;
-      top: 160px;
-      width: 206px;
-      font-size: 18px;
-    }
-    
-    #aside .news-item {
-      background-image: url(../images/body-newsitem-background-1600.png);
-      height: 61px;
-      width: 282px;
-      padding: 12px 12px 12px 10px;
-    }
-    #aside .news-item a {
-      height: 54px;
-      line-height: 18px;
-      width: 280px;
-    }
-    .sub-page #aside {
-      /*detta är lite av en gissning pga PSD-filen*/
-      border-left: 1px solid silver;
-      padding: 80px 0 0 55px;
-      width: 280px;
-      min-height: 320px;
-    }
-    .sub-page #aside .gallery-item {
-      width: 123px;
-      margin-right: 15px;
-      margin-bottom: 15px;
-    }
-    .sub-page #aside .gallery-item img {
-      height: 99px;
-      width: 123px;
-    }
-    .description {
-      font-size: 16px;
-    }
-    #footer {
-      font-size: 12px;
-      height: 161px;
-      background: url(../images/footer-fade-background-1600.png) no-repeat scroll 0 -325px;
-    }
-    #footer > * {
-      margin-top: 10px;
-    }
-    h1 {
-      font-size: 48px;
-    }
-    h2 {
-      font-size: 30px;
-    }
-    #main h1, #main h2 {
-      line-height: 50px;
-      margin-bottom: 12px;
-    }
-    p {
-      font-size: 24px;
-    }
-    .ingress {
-      font-size: 30px;
-    }
-    #aside .news-item {
-      font-size: 18px;
-    }
-    
   }
   
   @media handheld and (max-width: 767px), 
   		screen and (max-device-width: 767px),
   		screen and (max-width: 767px) {
-	  body, body.contact {
-	    background-image: url(../images/body-background-320.png);
-	  }
-	  #wrap {
-        background-image: url(../images/footer-background-320.png);
-  	  }
-      #logo img {
-        left: 95px;
-        height: 58px;
-      	width: 108px;
-      }
-      #header {
-      	display: block;
-      	margin-bottom: 53px;
-      }
-      #nav {
-      	display: block;
-        float: none;
-      	position: relative;
-      	width: 310px;
-      	z-index: 250;
-		margin: 0;
-	  }
-	  #nav li.active, #nav li:hover {
-        background: none;
-	  }
-	  #nav li {
-	  	margin: 0 3px 0 4px;
-	  }
-	  #nav li a {
-        line-height: 20px;
-        padding: 0 5px 10px;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 14px;
-	  }
-	  #lang li {
-	  	margin-left: 0;
-	  	margin-right: 2px;
-	  }
-	  #lang {
-	  	top: 85px;
-	  	right: 10px;
-	  }
-  	  #content, #header {
-  	  	padding: 0 10px;
-  	  }
-  	  #slider {
-  	  	height: 66px;
-  	  	margin: 0 0 15px 0;
-  	  }
-  	  #main {
-        -moz-border-radius: 0;
-        -webkit-border-radius: 0;
-        -o-border-radius: 0;
-        border-radius: 0;        
-        padding: 0;
-        -moz-box-shadow: none;
-        -webkit-box-shadow: none;
-        -o-box-shadow: none;
-        box-shadow: none;
-        background: none;
-        margin: 0;
-  	  }
-  	  p {
-  	  	font-size: 14px;
-  	  }
-  	  .ingress {
-  	  	font-size: 16px;
-  	  	margin-bottom: 10px;
-  	  }
-  	  h1 {
-  	    font-size: 24px;
-  	  }
-  	  h2 {
-  	    font-size: 18px;
-  	   }
-  	   #main h1, #main h2 {
-  	   	margin-bottom: 3px;
-  	   }
-	  .contact #main h1 {
-	    margin-bottom: 15px;
-	  }
-  	  .contact #promo {
-  	  	padding:  0px 10px;
-  	  }
-  	  #promo, #aside {
-  	    float: left;
-  	    width: inherit;
-  	    padding: 0 9px;
-  	  }
-  	  #promo .post {
-  	    -moz-column-count: 1;
-  	    -webkit-column-count: 1;
-  	    -o-column-count: 1;
-  	    column-count: 1;
-  	  }
-  	  #promo .person {
-  	    height: 157px;
-  	    margin: 0 8px 15px 0;
-  	    width: 133px;
-  	  }
-  	  #promo .person.even {
-  	  	margin: 0;
-  	  }
-  	  #promo .person img {
-  	    height: 157px;
-  	    width: 133px;
-  	  }
-  	  #promo .person .details {
-  	    height: 45px;
-  	  }
-  	  
-  	  #aside {
-  	  	width: 270px;
-  	  }
-  	  .sub-page #aside {
-  	  	border: none;
-  	  	width: 285px;
-  	  	padding: 0 0px 0 15px;
-  	  	min-height: 120px;
-  	  }
- 	  .sub-page #aside .gallery-item {
- 	  	margin: 0 16px 3px 0;
-   	    width: 126px;
- 	  }
- 	  .sub-page #aside .gallery-item img {
-   		height: 101px;
-   		width: 126px;
- 	  }
-  	  .description {
-  	  	font-size: 14px;
-  	  	margin: 0 0 0 10px;
-		}
-  	  #aside .news-item {
-        background-image: url(../images/body-newsitem-background-320.png);
-        height: 65px;
-        width: 257px;
-        margin: 5px 0 5px -10px;
-        padding: 5px 20px 4px 20px;
-		line-height: 130%;
-	  }
-	  #aside .news-item a {
-		width: inherit;
-		height: 60px;
-	  }
-	  #footer {
-	    background: none;
-        font-size: 12px;
-	  }
-	  #footer .address {
-       width: inherit;
-	  }
-	  #footer .address.alpha {
-	    margin-left: 0;
-	  }
-	  #footer .certifications {
-		width: 280px;
-		margin: 10px 0;
-		text-align: center;
-	  }
   }
   
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -619,68 +231,9 @@ a:visited {
           only screen and (min--moz-device-pixel-ratio: 1.5),
           only screen and (min-device-pixel-ratio: 1.5) {
             /*
-            	Retina-bilder som bakgrund kan placeras här
-            	Jag har inte lagt in de faktiska filerna, men genom att lägga in filer döpta som här under kan man servera snyggare grafik till de webbläsare som vill ha.
+            Retina-bilder som bakgrund kan placeras här
+            Jag har inte lagt in de faktiska filerna, men genom att lägga in filer döpta som här under kan man servera snyggare grafik till de webbläsare som vill ha.
             */
-        body {
-          background: url(../images/body-background@2x.png) repeat-x scroll left top;
-        }
-        body.contact {
-          background-image: url(../images/body-sub-background@2x.png);
-        } 
-        #wrap {
-          background: url(../images/footer-background@2x.png) repeat-x scroll left bottom;
-        #nav li.active, #nav li:hover {
-          background: url(../images/header-nav-hover@2x.png) no-repeat scroll center bottom;
-        }
-        #lang li {
-          background: url(../images/header-lang-flags@2x.png) no-repeat scroll 0 0;
-        }
-        #content {
-          background: url(../images/body-shades-top@2x.png) no-repeat scroll center 100px;
-        }
-        #footer {
-          background: url(../images/footer-fade-background@2x.png) no-repeat scroll center -174px;
-        }
-        #aside .news-item {
-          background: url(../images/body-newsitem-background@2x.png) no-repeat scroll left top;
-        }
-          @media only screen and (min-width: 1600px) {
-            body {
-              background-image: url(../images/body-background-1600@2x.png);
-            }
-            body.contact {
-              background-image: url(../images/body-sub-background-1600@2x.png);
-            } 
-            #wrap {
-              background-image: url(../images/footer-background-1600@2x.png);
-            }
-            #content {
-              background-image: url(../images/body-shades-top-1600@2x.png);
-            }
-            #lang li {
-              background-image: url(../images/header-lang-flags-1600@2x.png);
-            }
-            #aside .news-item {
-              background-image: url(../images/body-newsitem-background-1600@2x.png);
-            }
-            #footer {
-              background: url(../images/footer-fade-background-1600@2x.png) no-repeat scroll 0 -325px;
-            }
-          }
-          @media handheld and (max-width: 767px), 
-          		screen and (max-device-width: 767px),
-          		screen and (max-width: 767px) {
-        	  body, body.contact {
-        	    background-image: url(../images/body-background-320@2x.png);
-        	  }
-        	  #wrap {
-                background-image: url(../images/footer-background-320@2x.png);
-          	  }
-          	  #aside .news-item {
-                background-image: url(../images/body-newsitem-background-320@2x.png);
-        	  }
-            
   }
 
 /* #Font-Face

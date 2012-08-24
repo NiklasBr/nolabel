@@ -10,29 +10,29 @@
 
 /* Table of Contents
 ==================================================
-    #Base 1024 Grid
-    #1600 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
+    #Base 1600 Grid
+    #1600 Grid [disabled]
+    #Tablet (Portrait) [disabled]
+    #Mobile (Portrait) [disabled]
+    #Mobile (Landscape) [disabled]
     #Clearing */
 
 
 
-/* #Base 1024 Grid
+/* #Base 1600 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 1024px; margin: 0 auto; padding: 0; }
-    .container .column,
+    .container                                  { position: relative; width: 1600px; margin: 0 auto; padding: 0; }
+    /*.container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-    .row                                        { margin-bottom: 20px; }
+    .row                                        { margin-bottom: 20px; }*/
 
     /* Nested Column Classes */
-    .column.alpha, .columns.alpha               { margin-left: 0; }
-    .column.omega, .columns.omega               { margin-right: 0; }
+    .alpha               { margin-left: 0; }
+    .omega               { margin-right: 0; }
 
     /* Base Grid */
-    .container .one.column,
+    /*.container .one.column,
     .container .one.columns                     { width: 64px;  }
     .container .two.columns                     { width: 148px; }
     .container .three.columns                   { width: 212px; }
@@ -51,10 +51,10 @@
     .container .sixteen.columns                 { width: 1044px; }
 
     .container .one-third.column                { width: 300px; }
-    .container .two-thirds.column               { width: 620px; }
+    .container .two-thirds.column               { width: 620px; }*/
 
     /* Offsets */
-    .container .offset-by-one                   { padding-left: 64px;  }
+    /*.container .offset-by-one                   { padding-left: 64px;  }
     .container .offset-by-two                   { padding-left: 128px; }
     .container .offset-by-three                 { padding-left: 192px; }
     .container .offset-by-four                  { padding-left: 256px; }
@@ -68,17 +68,17 @@
     .container .offset-by-twelve                { padding-left: 768px; }
     .container .offset-by-thirteen              { padding-left: 832px; }
     .container .offset-by-fourteen              { padding-left: 896px; }
-    .container .offset-by-fifteen               { padding-left: 960px; }
+    .container .offset-by-fifteen               { padding-left: 960px; }*/
 
 
 /* # 1600 Grid
 ================================================== */
 
-	@media only screen and (min-width: 1600px) {
+	/*@media only screen and (min-width: 1600px) {
 		.container                                  { width: 1600px; }
 		
 	    /* Base Grid */
-	    .container .one.column,
+	    /*.container .one.column,
 	    .container .one.columns                     { width: 100px;  }
 	    .container .two.columns                     { width: 200px; }
 	    .container .three.columns                   { width: 300px; }
@@ -97,10 +97,10 @@
 	    .container .sixteen.columns                 { width: 1600px; }
 	
 	    .container .one-third.column                { width: 300px; }
-	    .container .two-thirds.column               { width: 620px; }
+	    .container .two-thirds.column               { width: 620px; }*/
 	
 	    /* Offsets */
-	    .container .offset-by-one                   { padding-left: 100px;  }
+	    /*.container .offset-by-one                   { padding-left: 100px;  }
 	    .container .offset-by-two                   { padding-left: 200px; }
 	    .container .offset-by-three                 { padding-left: 300px; }
 	    .container .offset-by-four                  { padding-left: 400px; }
@@ -114,9 +114,9 @@
 	    .container .offset-by-twelve                { padding-left: 1200px; }
 	    .container .offset-by-thirteen              { padding-left: 1300px; }
 	    .container .offset-by-fourteen              { padding-left: 1400px; }
-	    .container .offset-by-fifteen               { padding-left: 1500px; }
+	    .container .offset-by-fifteen               { padding-left: 1500px; }*/
 		
-	}
+	}*/
 
 /* #Tablet (Portrait)
 ================================================== */
@@ -176,7 +176,7 @@
 
     /* Note: Design for a width of 320px */
 
-@media handheld and (max-width: 767px), 
+/*@media handheld and (max-width: 767px), 
 		screen and (max-device-width: 767px),
 		screen and (max-width: 767px) {
 
@@ -202,10 +202,10 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 320px; }
+        .container .two-thirds.column  { width: 320px; }*/
 
         /* Offsets */
-        .container .offset-by-one,
+        /*.container .offset-by-one,
         .container .offset-by-two,
         .container .offset-by-three,
         .container .offset-by-four,
@@ -221,7 +221,7 @@
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
 
-    }
+    }*/
 
 
 /* #Mobile (Landscape)
