@@ -38,6 +38,29 @@ $(document).ready(function() {
     $("#lang li a").each(function() {
         $(this).parent('li').attr('title', $(this).text());
     });
+    
+    // Ändrar dynamiskt storlek på text och element beroende på fönstrets storlek
+    var context = $('body');
+    
+    var setBodyScale = function() {
+        var scaleSource = context.width(),
+            scaleFactor = 0.15,
+            maxScale = 180,
+            minScale = 75;
+
+        var fontSize = scaleSource * scaleFactor;
+
+        if (fontSize > maxScale) fontSize = maxScale;
+        if (fontSize < minScale) fontSize = minScale;
+
+        $(context).css('font-size', fontSize + '%');
+    }
+    
+    $(window).resize(function(){
+        setBodyScale();
+    });
+    
+    setBodyScale();
 });
 
 

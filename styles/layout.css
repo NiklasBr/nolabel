@@ -171,7 +171,7 @@ h2 {
 #main h1, #main h2 {
 }
 p, .news-item {
-  font: 16px Garamond, "Times New Roman", Times, serif;
+  font: 1.1em Garamond, "Times New Roman", Times, serif;
 }
 .ingress, a, #nav a, #promo .person .name, .description {
   text-decoration: none;
@@ -201,13 +201,13 @@ a:visited {
 }
 #aside .news-item {
   line-height: 90%;
-  font-size: 12px;
+  font-size: 1em;
 }
 #aside .news-item a {
   overflow: hidden;
 }
 .description {
-  font: 10px "Big Caslon", "Times New Roman", Times, serif;
+  font: 0.87em "Big Caslon", "Times New Roman", Times, serif;
 }
 #footer, #footer a {
   color: #fff;
