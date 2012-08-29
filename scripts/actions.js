@@ -45,7 +45,7 @@ $(document).ready(function() {
     var setBodyScale = function() {
         var scaleSource = context.width(),
             scaleFactor = 0.15,
-            maxScale = 180,
+            maxScale = 150,
             minScale = 75;
 
         var fontSize = scaleSource * scaleFactor;
